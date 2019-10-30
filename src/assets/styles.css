@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionsBlock{
+    width: 600px;
+    flex-wrap: wrap;
+    height: 300px;
+    background-image: linear-gradient(#0B071C, #24457A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #4273B5;
+    border-radius: 10px;
+}
+
+.questions{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.select{
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.answer1{
+    width: 270px;
+    height: 45px;
+    background-image: linear-gradient(#0B071C, #24457A);
+    border: 2px solid #4273B5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top:15px;
+}
+
+.active{
+    width: 270px;
+    height: 45px;
+    background-image: linear-gradient(green, #00cb00);
+    border: 2px solid #4273B5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top:15px;
+}
+
+.active2{
+    width: 270px;
+    height: 45px;
+    background-image: linear-gradient(red, #6e0000);
+    border: 2px solid #4273B5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top:15px;
+}
+
+.answer1:hover{
+    background-image: linear-gradient(orange, #844f00);
+}
+
+
+.answerP{
+    color: white;
+    font-size: 18px;
+}
+
+.timer{
+    width: 50px;
+    height: 50px;
+    background-color: #100852;
+    border: 2px solid #844f00;
+    border-radius: 50%;
+    position: absolute;
+    left: 37.2%;
+    top:538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timerP{
+    font-size: 20px;
+    color: #844f00;
+}
+
+.tableBlock{
+    width: 330px;
+    height: 420px;
+    background-image:linear-gradient(#0B071C, #24457A);
+    display: flex;
+    flex-direction:column;
+    align-items:self-end;
+    margin-left: 30px;
+    border: 2px solid #4273B5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.p{
+    font-size: 19px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.div1:hover{
+    background-image: linear-gradient(orange, #844f00);
+}
+
+h1{
+    font-size: 35px;
+    color: #b97800;
+}
+
+.inputContainer{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    border: 4px solid #0B071C;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    width: 130px;
+    height: 50px;
+    background-image:linear-gradient(#0B071C, #24457A);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid #4273B5;
+    color: orange;
+    font-size: 22px;
+}
+
+.btn:hover{
+    background-image:linear-gradient(#24457A,#0B071C);
+}
+
+.divTitle{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.imgdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4dadfa;
+}
+
+.b{
+    background-color: rgba(73, 164, 255, 0.22);
+}
